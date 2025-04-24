@@ -1,0 +1,51 @@
+.intro {
+    background-image: url(../../media/images/background/rainworld-thumb.jpg);
+    background-position: bottom;
+    min-height: 576px;
+    display: flex;
+    position: relative;
+    z-index: 50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__inner {
+    color: var(--main-white);
+    left: 0;
+    top: 0;
+}
+
+.intro__text {
+    font-family: 'Segoe UI';
+    max-width: 681px;
+    height: 87px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.intro__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rodondo';
+    font-size: 128px;
+    letter-spacing: 36%;
+}
+
+.intro__title_1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rodondo';
+    font-size: 40px;
+    letter-spacing: 33%;
+}

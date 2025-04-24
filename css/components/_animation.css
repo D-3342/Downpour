@@ -1,0 +1,26 @@
+.gif {
+    margin: 148px auto 0;
+}
+
+.gif img {
+    margin: 0 auto;
+}
+
+.animation {
+    max-width: 640px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.animation_text {
+    font-family: 'Segoe UI';
+    color: var(--main-white);
+    height: 87px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

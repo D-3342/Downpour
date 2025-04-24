@@ -1,0 +1,37 @@
+.header {
+    font-family: "Rodondo";
+    font-size: 32px;
+    letter-spacing: 12%;
+    height: 45px;
+    background-color: #2C2A2A;
+}
+
+.header__inner {
+    position: relative;
+    z-index: 150;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 34px;
+    color: var(--main-white);
+}
+
+.header__link {
+    transition: background-color .4s, color .4s;
+    font-size: 21px;
+    display: flex;
+}
+
+.header__link:focus {
+    background-color: var(--main-grey);
+    color: var(--main-white);
+}
+
+.header__link:hover {
+    color: var(--main-grey);
+    transition: color 0.3s ease;
+}
