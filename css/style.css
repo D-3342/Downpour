@@ -1,7 +1,13 @@
 @import 'basic/_reset.css';
 @import 'basic/global.css';
 @import 'basic/_vars.css';
+
 @import 'components/_header.css';
 @import 'components/_intro.css';
 @import 'components/_footer.css';
-@import 'components/_animation.css'
+@import 'components/_animation.css';
+@import 'components/_slug-cats.css';
+@import 'components/_banner.css';
+
+@import 'components/_rivulet-title.css';
+@import 'components/_rivulet-animations.css';

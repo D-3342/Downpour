@@ -1,14 +1,15 @@
 .gif {
-    margin: 148px auto 0;
+    margin: 182px auto 0;
 }
 
 .gif img {
     margin: 0 auto;
+    border-radius: 19px;
 }
 
 .animation {
     max-width: 640px;
-    margin: 0 auto;
+    margin: 182px auto;
     align-items: center;
     justify-items: center;
     display: flex;
@@ -17,7 +18,7 @@
 
 .animation_text {
     font-family: 'Segoe UI';
-    color: var(--main-white);
+    color: var(--main-grey);
     height: 87px;
     display: flex;
     text-align: center;

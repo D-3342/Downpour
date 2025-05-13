@@ -1,0 +1,48 @@
+.banner {
+    margin-top: 291px;
+    background-image: url(../../media/images/background/mainmenuflat1.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding-top: 59px;
+}
+
+.banner__title {
+    font-family: 'Rodondo';
+    font-size: 96px;
+    letter-spacing: 33%;
+    color: var(--main-white);
+    padding-bottom: 78px;
+}
+
+.banner__description {
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    color: var(--main-white);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    max-width: 615px;
+    gap: 78px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buy {
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    align-items: center;
+    color: var(--main-white);
+    background-color: rgba(23, 147, 151, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid #179297;
+    border-radius: 11px;
+    padding: 20px 70px;
+    position: absolute;
+    display: inline-block;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}

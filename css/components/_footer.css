@@ -1,0 +1,40 @@
+.footer {
+    background-color: black;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logos {
+    padding-top: 83px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logos img{
+    max-width: 186px;
+}
+
+.links {
+    background-color: var(--second-grey);
+    border-radius: 20px;
+    padding: 8px 20px;
+    display: flex;
+    margin-top: 211px;
+    margin-bottom: 100px;
+    gap: 15px;
+}
+
+.links img {
+    max-width: 26px;
+}
+
+.img__links:hover {
+    scale: 1.3;
+}
+
+.img__links {
+    transition: .7s;
+}

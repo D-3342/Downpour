@@ -1,6 +1,10 @@
+html {
+    overflow-x: hidden;
+}
+
 .body {
     background-color: var(--main-black);
-    
+    overflow-x: hidden;
 }
 
 .body::before {
@@ -14,6 +18,14 @@
     background-image: url(../../media/images/background/Rain_World\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.body--blue {
+    background-color: var(--dark-blue);
+}
+
+.body--blue::before {
+    display: none;
 }
 
 .container {

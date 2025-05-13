@@ -1,0 +1,28 @@
+.rivulet {
+    margin-top: 64px;
+}
+
+.rivulet_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rivulet__inner {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-white);
+    gap: 80px;
+    max-width: 374px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rivulet__title {
+    font-family: 'RODONDO';
+    font-size: 48px;
+    letter-spacing: 14px;
+}
+
+.rivulet__description {
+    font-family: 'Segoe UI';
+}
