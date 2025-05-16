@@ -22,9 +22,11 @@
     border-radius: 20px;
     padding: 8px 20px;
     display: flex;
-    margin-top: 211px;
-    margin-bottom: 100px;
     gap: 15px;
+    max-width: 186px;
+    align-items: center;
+    justify-content: center;
+    margin: 211px auto 100px;
 }
 
 .links img {

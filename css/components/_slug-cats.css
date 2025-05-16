@@ -47,8 +47,9 @@
     background-color: var(--light-red);
     color: var(--main-white);
     border-radius: 11px;
-    padding: 20px 30px;
+    padding: 14px 26px;
     font-family: 'Segoe UI';
+    max-width: max-content;
 }
 
 .swiper-slide img {

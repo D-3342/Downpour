@@ -2,12 +2,26 @@
     margin-top: 64px;
 }
 
-.rivulet_box {
+.slug_box {
     display: flex;
     justify-content: space-between;
 }
 
-.rivulet__inner {
+.slug_box img {
+    min-width: 509px;
+}
+
+.slug_box--saint {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slug_box--saint img {
+    min-width: 240px;
+    margin-left: 80px;
+}
+
+.slug__inner {
     display: flex;
     flex-direction: column;
     color: var(--main-white);
@@ -17,12 +31,18 @@
     font-size: 16px;
 }
 
-.rivulet__title {
+.slug__inner--saint {
+    max-width: 374px;
+    align-items: center;
+    margin-right: 275px;
+}
+
+.slug__title {
     font-family: 'RODONDO';
     font-size: 48px;
     letter-spacing: 14px;
 }
 
-.rivulet__description {
+.slug__description {
     font-family: 'Segoe UI';
 }

@@ -28,6 +28,30 @@ html {
     display: none;
 }
 
+.body--green {
+    background-color: var(--dark-green);
+}
+
+.body--green::before {
+    display: none;
+}
+
+.body--red {
+    background-color: var(--dark-red);
+}
+
+.body--red::before {
+    display: none;
+}
+
+.body--purple {
+    background-color: var(--dark-purple);
+}
+
+.body--purple::before {
+    display: none;
+}
+
 .container {
     max-width: 1350px;
     padding: 0 15px;
