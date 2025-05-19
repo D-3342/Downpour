@@ -40,3 +40,35 @@
 .img__links {
     transition: .7s;
 }
+
+.links--red {
+    background-color: var(--semi-red);
+}
+
+.links--purple::before {
+    display: none;
+}
+
+.links--blue {
+    background-color: var(--light-blue-menu);
+}
+
+.links--blue::before {
+    display: none;
+}
+
+.links--green {
+    background-color: var(--second-green);
+}
+
+.links--green::before {
+    display: none;
+}
+
+.links--purple {
+    background-color: var(--second-purple);
+}
+
+.links--purple::before {
+    display: none;
+}

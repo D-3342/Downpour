@@ -1,10 +1,10 @@
 .slug__animation_1 {
     margin-top: 145px;
-    max-width: 667px;
 }
 
 .slug__gif_1 img {
     width: 100%;
+    margin: 50px 0 60px;
 }
 
 .slug__gif_1--saint {
@@ -23,15 +23,28 @@
     font-family: 'Segoe UI';
     color: var(--main-white);
     font-size: 48px;
-    margin-top: 55px;
 }
 
 .slug__gif_1--saint {
     max-width: 135px;
+    min-width: max-content;
+}
+
+.slug__gif_1--saint img {
+    border-radius: 10px;
+}
+
+.slug__gif_1--artificer img {
+    width: 100%;
+    margin: 50px 0 60px;
+}
+
+.slug__gif_1 img {
+    width: 100%;
+    margin: 50px 0 60px;
 }
 
 .slug__gif_2 {
-    display: flex;
     flex-direction: row-reverse;
     margin-top: 60px;
     margin-bottom: 21px;
@@ -47,14 +60,131 @@
     border-radius: 10px;
 }
 
-.slug__animation_2--saint {
+.slug__animation__content--artificer {
+    display: flex;
+    align-items: center;
+    color: var(--main-white);
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.slug__animation__content--artificer img {
+    border-radius: 10px;
+}
+
+
+.slug__animation_2--artificer {
+    max-width: 667px;
+    margin-left: auto;
+    width: max-content;
+    margin-top: 44px;
+}
+
+.slug__gif_2--artificer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: var(--main-white);
+    font-family: 'Segoe UI';
+}
+
+.slug__animation--artificer {
+    max-width: 654px;
+}
+
+.slug__animation--artificer img {
+    width: 243px;
+}
+
+.slug__animation_content--artificer {
+    display: flex;
+    color: var(--main-white);
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.slug__animation_3--artificer {
+    max-width: 635px;
+    margin-left: auto;
+    width: max-content;
+    margin-top: 44px;
+}
+
+.slug__animation_3_text-artificer {
+    display: flex;
+    margin-left: auto;
+    max-width: 635px;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--main-white);
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    text-align: right;
+}
+
+.slug__animation_3_text-artificer img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px 0 0 10px;
+    margin-left: 30px;
+}
+
+
+
+.slug__animation_description_2--artificer {
+    max-width: 386px;
+}
+
+.slug__animation_content--artificer img {
+    width: 800px;
+    border-radius: 0 10px 10px 0;
+}
+
+.slug__gif_2--saint {
+    width: max-content;
     max-width: 870px;
+}
+
+.slug__animation_description_2--artificer {
+    margin-left: 23px;
+}
+
+.slug__gif_2--saint {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .slug__animation_description_2--saint {
     color: var(--main-white);
     font-family: 'Segoe UI';
     font-size: 16px;
+}
+
+.slug__animation_2--saint {
+    display: flex;
+    max-width: 870px;
+    margin-right: auto;
+    margin-top: 44px;
+    align-items: center;
+}
+
+
+.slug__gif_2--saint {
+    max-width: 320px;
+    min-width: max-content;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.artificer__animation_1 {
+    align-content: center;
+    text-align: center;
+    color: var(--main-white);
+    font-family: "Segoe UI";
+    max-width: 525px;
+    margin: 0 auto;
 }
 
 .slug_block {
@@ -70,17 +200,49 @@
     margin-left: -30px;
 }
 
-.slug__animation_3_text {
-    flex-direction: column;
-    margin-left: 32px;
+.slug__animation_3 img {
+    border-radius: 0 10px 10px 0px;
+}
+
+.slug__animation_3--saint {
+    margin-top: 68px;
+}
+
+.slug__animation_3--saint img {
+    border-radius: 0 10px 10px 0px;
+}
+
+.slug__animation_3_text--saint {
+    align-items: center;
+    align-content: space-around;
 }
 
 .slug__animation_4_content--saint {
+    transform: scale(-1, 1);
+    margin-right: -142px;
+    border-radius: 10px;
+    margin-bottom: 31px;
+}
 
+.slug__animation_4_content--saint img {
+    border-radius: 10px;
+}
+
+.slug__animation_4_content--artificer {
+    margin-left: -194px;
+    border-radius: 10px;
+    margin-bottom: 31px;
+    margin-top: 23px;
+}
+
+.slug__animation_4_content--artificer img {
+    width: 750px;
 }
 
 .slug__title_2 {
     font-size: 34px;
+    color: var(--main-white);
+    font-family: 'Segoe UI';
     align-items: center;
     margin-bottom: 48px;
 }
@@ -89,6 +251,8 @@
     font-size: 34px;
     align-items: center;
     margin-bottom: 48px;
+    margin-left: 28px;
+    margin-top: 40px;
 }
 
 

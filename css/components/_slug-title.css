@@ -14,6 +14,17 @@
 .slug_box--saint {
     display: flex;
     justify-content: space-between;
+    margin-top: 45px;
+}
+
+.slug_box--artificer {
+    margin-top: 62px;
+    max-width: 864px;
+    margin-right: auto;
+}
+
+.slug_box--artificer img {
+    transform: scale(-1, 1);
 }
 
 .slug_box--saint img {
@@ -27,6 +38,15 @@
     color: var(--main-white);
     gap: 80px;
     max-width: 374px;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+}
+
+.slug__inner--artificer {
+    max-width: 374px;
+    flex-direction: column;
+    margin-left: 31px;
     text-align: center;
     font-size: 16px;
 }
@@ -45,4 +65,5 @@
 
 .slug__description {
     font-family: 'Segoe UI';
+    color: var(--main-white);
 }
